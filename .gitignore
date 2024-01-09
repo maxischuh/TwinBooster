@@ -1,5 +1,5 @@
-datasets/test/
-datasets/train/
-datasets/valid/
+datasets/test/*
+datasets/train/*
+datasets/valid/*
 
-pretraining/
+pretraining/*
