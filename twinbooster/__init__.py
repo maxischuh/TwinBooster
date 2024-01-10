@@ -8,4 +8,4 @@ from twinbooster.scripts.model import Model, TwinBooster
 from twinbooster.scripts.utils.utils_parallel import *
 from twinbooster.scripts.utils.utils_chem import *
 
-from twinbooster.llm.text_embeddings import TextEmbedding
+from twinbooster.scripts.llm.text_embeddings import TextEmbedding

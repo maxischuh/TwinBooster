@@ -5,7 +5,7 @@ from typing import List
 
 from twinbooster.scripts.barlow_twins.barlow_twins import BarlowTwins
 from twinbooster.scripts.utils.utils_chem import get_fp, get_mols, store_fp
-from twinbooster.llm.text_embeddings import TextEmbedding
+from twinbooster.scripts.llm.text_embeddings import TextEmbedding
 
 
 class Model:
@@ -87,6 +87,7 @@ class TwinBooster:
             thresholds: tuple = (0.5918970516203166, 0.30255694514339015)
         ):
         self.model_path = model_path
+        self.lgbm_path = lgbm_path
         self.thresholds = thresholds
 
         # load models
