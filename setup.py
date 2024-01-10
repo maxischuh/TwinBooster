@@ -5,8 +5,9 @@ setup(
     name="twinbooster",
     version="0.1",
     packages=find_packages(
-        include=["twinbooster",
-                 "twinbooster.*
+        include=[
+            "twinbooster",
+            "twinbooster.*
         ]
     ),
     description="TwinBooster: Synergising Large Language Models with Barlow Twins and Gradient Boosting for Enhanced Molecular Property Prediction",
