@@ -17,3 +17,21 @@ Technical University of Munich
 **Abstract**
 
 The success of drug discovery and development relies on the precise prediction of molecular activities and properties. While in silico molecular property prediction has shown remarkable potential, its use has been limited so far to assays for which large amounts of data are available. In this study, we use a fine-tuned large language model to integrate biological assays based on their textual information, coupled with Barlow Twins, a Siamese neural network using a novel self-supervised learning approach. This architecture uses both assay information and molecular fingerprints to extract the true molecular information. TwinBooster enables the prediction of properties of unseen bioassays and molecules by providing state-of-the-art zero-shot learning tasks. Remarkably, our artificial intelligence pipeline shows excellent performance on the FS-Mol benchmark. This breakthrough demonstrates the application of deep learning to critical property prediction tasks where data is typically scarce. By accelerating the early identification of active molecules in drug discovery and development, this method has the potential to help streamline the identification of novel therapeutics. 
+
+
+## Usage
+
+The pretrained model can be used by installing TwinBooster using pip.
+
+```bash
+pip install -e git+https://github.com/maxischuh/TwinBooster
+```
+or
+```bash
+pip install twinbooster
+```
+
+An example script can be found here ```./twinbooster/twinbooster_example.ipynb```.
+
+
+_More coming soon_
