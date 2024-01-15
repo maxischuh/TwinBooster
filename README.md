@@ -24,7 +24,7 @@ The success of drug discovery and development relies on the precise prediction o
 The pretrained model can be used by installing TwinBooster using pip.
 
 ```bash
-pip install -e git+https://github.com/maxischuh/TwinBooster
+pip install git+https://github.com/maxischuh/TwinBooster
 ```
 or
 ```bash
