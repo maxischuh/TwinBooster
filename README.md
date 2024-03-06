@@ -26,7 +26,7 @@ Alternatively, the pretrained models can be downloaded using these links:
 
 
 ```python
-!pip install twinbooster==0.2.5
+!pip install twinbooster
 
 import pandas as pd
 import twinbooster
