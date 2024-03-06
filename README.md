@@ -52,4 +52,4 @@ df.head()
 
 ```
 
-An example script can be found here ```./twinbooster/twinbooster_example.ipynb```.
+An example notebook can be found here [`./twinbooster_example.ipynb`](./twinbooster_example.ipynb).

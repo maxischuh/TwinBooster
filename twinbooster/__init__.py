@@ -1,11 +1,13 @@
-from twinbooster.datasets.fsmol import FSMOLDataset
+from .datasets.fsmol import FSMOLDataset
 
-from twinbooster.scripts.barlow_twins.base_model import BaseModel
-from twinbooster.scripts.barlow_twins.barlow_twins import BarlowTwins
+from .scripts.barlow_twins.base_model import BaseModel
+from .scripts.barlow_twins.barlow_twins import BarlowTwins
 
-from twinbooster.scripts.model import Model, TwinBooster
+from .scripts.model import Model, TwinBooster
+from .scripts.downloader import download_models, download_data, download_pretraining_data
 
-from twinbooster.scripts.utils.utils_parallel import *
-from twinbooster.scripts.utils.utils_chem import *
+from .scripts.utils.utils_parallel import *
+from .scripts.utils.utils_chem import *
 
-from twinbooster.scripts.llm.text_embeddings import TextEmbedding
+from .scripts.llm.text_embeddings import TextEmbedding
+from .scripts.lsa.lsa_encoder import LSA
