@@ -1,5 +1,0 @@
-twinbooster/datasets/fs-mol/test/*
-twinbooster/datasets/fs-mol/train/*
-twinbooster/datasets/fs-mol/valid/*
-
-twinbooster/pretraining/*
