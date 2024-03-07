@@ -16,6 +16,8 @@ Maximilian G. Schuh, Davide Boldini, Stephan A. Sieber
 
 The precise prediction of molecular properties can greatly accelerate the development of new drugs. However, in silico molecular property prediction approaches have been limited so far to assays for which large amounts of data are available. In this study, we develop a new computational approach leveraging both the textual description of the assay of interest and the chemical structure of target compounds. By combining these two sources of information via self-supervised learning, our tool can provide accurate predictions for assays where no measurements are available. Remarkably, our approach achieves state-of-the-art performance on the FS-Mol benchmark for zero-shot prediction, outperforming a wide variety of deep learning approaches. Additionally, we demonstrate how our tool can be used for tailoring screening libraries for the assay of interest, showing promising performance in a retrospective case study on a high-throughput screening campaign. By accelerating the early identification of active molecules in drug discovery and development, this method has the potential to streamline the identification of novel therapeutics.
 
+![Graphical abstract](toc.svg)
+
 ## Usage
 
 The pretrained model can be used by installing TwinBooster using pip and is easy to use.
