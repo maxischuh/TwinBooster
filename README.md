@@ -1,7 +1,7 @@
 # :gemini::rocket: TwinBooster
 
 [![arXiv](https://img.shields.io/badge/arXiv-2401.04478-b31b1b.svg)](https://arxiv.org/abs/2401.04478)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxischuh/TwinBooster/blob/main/twinbooster/twinbooster_example.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxischuh/TwinBooster/blob/main/twinbooster_example.ipynb)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Python version](https://img.shields.io/badge/python-v.3.8-blue)
 ![License](https://img.shields.io/badge/license-MIT-orange)
@@ -21,8 +21,8 @@ The precise prediction of molecular properties can greatly accelerate the develo
 The pretrained model can be used by installing TwinBooster using pip and is easy to use.
 Alternatively, the pretrained models can be downloaded using these links:
 
-- [Barlow Twins model](https://syncandshare.lrz.de/getlink/fi5QHx1xDz2u1qoA4SvRWC/bt_model.tar)
-- [LGBM model](https://syncandshare.lrz.de/getlink/fiT7qTowKLpA2Usi6yBY9J/lgbm_model.tar)
+- [Barlow Twins model](https://syncandshare.lrz.de/getlink/fi9dFf1krBH2X6x1kmi3JM/bt_model.tar.xz)
+- [LightGBM model](https://syncandshare.lrz.de/getlink/fiMSWXFeRgsSkQjyCnrihe/lgbm_model.tar.xz)
 
 
 ```python
@@ -57,4 +57,4 @@ df.head()
 
 ```
 
-An example notebook can be found here [`./twinbooster_example.ipynb`](./twinbooster_example.ipynb).
+An example notebook can be found here [`twinbooster_example.ipynb`](./twinbooster_example.ipynb).
