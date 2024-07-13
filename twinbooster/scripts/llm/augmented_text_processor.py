@@ -83,10 +83,9 @@ class TextProcessor:
         dataset = DatasetDict(
             {
                 "train": Dataset.from_pandas(pd.DataFrame(train, columns=["text"])),
-                "test": Dataset.from_pandas(pd.DataFrame(train, columns=["text"])),
+                "test": Dataset.from_pandas(pd.DataFrame(test, columns=["text"])),
             }
         )
-        # "val": Dataset.from_pandas(val)})
         self.max_length = max_length
 
         print("Tokenizing dataset...")
