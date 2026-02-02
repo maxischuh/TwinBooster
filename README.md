@@ -24,8 +24,8 @@ The precise prediction of molecular properties can greatly accelerate the develo
 The pretrained model can be used by installing TwinBooster using pip and is easy to use.
 Alternatively, the pretrained models can be downloaded using these links:
 
-- [Barlow Twins model](https://syncandshare.lrz.de/getlink/fiADekHXeowm6nLF26FF3G/bt_model.tar.xz)
-- [LightGBM model](https://syncandshare.lrz.de/getlink/fiqhascTvBGiMq7hNu3PK/lgbm_model.tar.xz)
+- [Barlow Twins model](https://syncandshare.lrz.de/dl/fiADekHXeowm6nLF26FF3G/bt_model.tar.xz)
+- [LightGBM model](https://syncandshare.lrz.de/dl/fiqhascTvBGiMq7hNu3PK/lgbm_model.tar.xz)
 
 
 ```python

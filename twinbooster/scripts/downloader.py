@@ -16,10 +16,10 @@ def download_models(
     os.makedirs(barlow_twins_save_path, exist_ok=True)
 
     # Download the tar and extract it in the save path
-    lgbm_model_url = "https://syncandshare.lrz.de/getlink/fiT7qTowKLpA2Usi6yBY9J/lgbm_model.tar"
-    barlow_twins_model_url = "https://syncandshare.lrz.de/getlink/fi5QHx1xDz2u1qoA4SvRWC/bt_model.tar"
-    lgbm_tar_path = os.path.join(lgbm_save_path, "lgbm_model.tar")
-    barlow_twins_tar_path = os.path.join(barlow_twins_save_path, "bt_model.tar")
+    lgbm_model_url = "https://syncandshare.lrz.de/dl/fiqhascTvBGiMq7hNu3PK/lgbm_model.tar.xz"
+    barlow_twins_model_url = "https://syncandshare.lrz.de/dl/fiADekHXeowm6nLF26FF3G/bt_model.tar.xz"
+    lgbm_tar_path = os.path.join(lgbm_save_path, "lgbm_model.tar.xz")
+    barlow_twins_tar_path = os.path.join(barlow_twins_save_path, "bt_model.tar.xz")
 
     # Download the tar files
     if not os.path.exists(lgbm_tar_path):
@@ -47,7 +47,7 @@ def download_data(save_path: str = "./twinbooster/datasets/fs-mol"):
     os.makedirs(save_path, exist_ok=True)
 
     # Download the tar and extract it in the save path
-    data_url = "https://syncandshare.lrz.de/getlink/fiJ317U1asvtQJC5npSVkn/fsmol_data.tar"
+    data_url = "https://syncandshare.lrz.de/dl/fiJ317U1asvtQJC5npSVkn/fsmol_data.tar"
     tar_path = os.path.join(save_path, "fsmol_data.tar")
 
     # Download the tar file
