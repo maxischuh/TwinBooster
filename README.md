@@ -3,6 +3,7 @@
 [![JCIM](https://img.shields.io/badge/JCIM-b61e1e.svg)](https://doi.org/10.1021/acs.jcim.4c00765)
 [![arXiv](https://img.shields.io/badge/arXiv-2401.04478-b31b1b.svg)](https://arxiv.org/abs/2401.04478)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxischuh/TwinBooster/blob/main/twinbooster_example.ipynb)
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm-dark.svg)](https://huggingface.co/spaces/mschuh/TwinBooster)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Python version](https://img.shields.io/badge/python-v.3.8-blue)
 ![License](https://img.shields.io/badge/license-MIT-orange)
@@ -20,6 +21,12 @@ The precise prediction of molecular properties can greatly accelerate the develo
 ![Graphical abstract](toc.svg)
 
 ## Usage
+
+### Webserver
+
+To speed up access to our research, we have created a [web tool](https://huggingface.co/spaces/mschuh/TwinBooster) where you can easily predict and download your molecule and assay input information.
+
+### Local
 
 The pretrained model can be used by installing TwinBooster using pip and is easy to use.
 Alternatively, the pretrained models can be downloaded using these links:
